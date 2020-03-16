@@ -1,0 +1,19 @@
+package Bootcamp;
+
+public class Quotientandremainder {
+public static void main(String[] args){
+	//taking command line argument and passing string to integer
+	 int dividend = Integer.parseInt(args[0]);
+	 //taking command line argument  and passing string to integer
+	 int divisor = Integer.parseInt(args[1]);
+	//calculate  remainder
+     int remainder = dividend%divisor;
+     //calculate quotient
+	 int quotient =(int) dividend/divisor;
+	 
+	 //printing remainder and quotient values
+	 
+	 System.out.println("Quotient is "+quotient);
+	 System.out.println("Remainder is: "+remainder);
+}//end of main method
+}//end of class method
