@@ -1,0 +1,29 @@
+package Bootcamp;
+
+import java.util.Scanner;
+
+public class Age {
+public static void main (String[] args){
+	Scanner sc=new Scanner(System.in);
+	String name=sc.nextLine();
+	//taking input from console
+String[] splitting=name.split(",");
+//splitting the string by using split method
+String f="";
+int s=0;
+String t="";
+for(int i=0;i<=2;i++)
+{
+	f=splitting[0];
+	//separating the name and sorting in first variable
+	s=Integer.parseInt(splitting[1]);
+	//separating the age and converting into integer and sorting in second variable
+	t=splitting[2];
+	//separating the gender and sorting the third variable
+	
+}
+System.out.println("Name: "+f+" , Age: "+s+ " and Gender:"+t);	
+//printing in name age gender format
+sc.close();
+  }//end main method
+}//end class method
