@@ -1,0 +1,11 @@
+package Bootcamp;
+
+public class Asciivalues {
+public static void main (String[] args){
+for(char ch='a';ch<='z';ch++)//initializing variables
+{
+	int a=(int)ch;//type casting char to integer
+System.out.println("ASCII values for "  +ch+  " is "+a);//printing ASCII values 
+     }//end for loop
+   }//end main method 
+}//end class method
