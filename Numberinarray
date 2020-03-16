@@ -1,0 +1,40 @@
+package Bootcamp;
+
+import java.util.Scanner;
+public class Numberinarray{
+	
+	   public static void main(String args[]){
+		 int i=0;
+		 int x=0;
+		 boolean a=false;
+	   //enter the values 
+	      int data[] = {10,20,32,50,60};
+	 
+          Scanner sc=new Scanner(System.in);
+          //prompt the user for taking input
+          System.out.println("Enter any number:");
+          //after reading the input value to store it in one variable
+          int num=sc.nextInt();
+          //use loop statements
+	      for(i = 0; i<=4; i++){
+	      if(num == data[i]){
+	        	 a=true;
+	        	 x=i;
+	        	 break;
+	         }
+	      }//end for loop
+	      if (a)
+	      {
+	    	  System.out.println("Found @ pos "+x);  
+	      }
+	            
+	          
+	   else 
+	         {
+	        System.out.println("Not found");	 
+	         }//end of else block
+      }//end of main method
+	   
+	   
+}//end of class method
+	         
